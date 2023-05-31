@@ -86,7 +86,6 @@ public class TaskServiceImpl implements TaskService {
 
                     sb.append(String.format(VALID_TASK_INPUT, task.getPrice()));
                 }
-                continue;
             } else {
                 sb.append(INVALID_TASK).append(System.lineSeparator());
             }
